@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="btn">
+            <button>Digital Clock</button>
+            <button>Analog Clock</button>
+            <button>Futuristic Clock</button>
+        </div>
+    </div>
+
+    <div class="main-container">
+
+        
+        <div class="digital-clock clock">
+            <h2>Digital Clock</h2>
+            <div class="clock-container">
+                <div class="hours-container clock">
+                    <p id="hours"></p>
+                    <span>Hours</span>
+                </div>
+                <div class="minutes-container clock">
+                    <p id="minutes"></p>
+                    <span>Minutes</span>
+                </div>
+                <div class="seconds-container clock">
+                    <p id="seconds"></p>
+                    <span>Seconds</span>
+                </div>
+                <div class="meridiem "></div>
+            </div>
+        </div>
+
+        <div class="analog-clock clock">
+            <h2>Analog Clock</h2>
+            <div class="clock-dial">
+                <div class="point"></div>
+                <div class="hour hour-1">1</div>
+                <div class="hour hour-2">2</div>
+                <div class="hour hour-3">3</div>
+                <div class="hour hour-4">4</div>
+                <div class="hour hour-5">5</div>
+                <div class="hour hour-6">6</div>
+                <div class="hour hour-7">7</div>
+                <div class="hour hour-8">8</div>
+                <div class="hour hour-9">9</div>
+                <div class="hour hour-10">10</div>
+                <div class="hour hour-11">11</div>
+                <div class="hour hour-12">12</div>
+                <div class="brand">ROLEX</div>
+                
+
+                <div class="minute-hand-wrapper" id="minute-hand">
+                    <div class="minute-hand">
+                        <div class="hand"></div>
+                        <div class="arrow">V</div>
+                    </div>
+                </div>
+                <div class="hour-hand-wrapper" id="hour-hand">
+                    <div class="hour-hand">
+                        <div class="hand"></div>
+                        <div class="arrow">V</div>
+                    </div>
+                </div>
+                <div class="seccond-hand-wrapper" id="seccond-hand">
+                    <div class="seccond-hand">
+                        <div class="hand"></div>
+                    </div>
+                </div>
+
+                <div class="date-wrapper">
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="futuristic-clock clock">
+            <h2>Futuristic Clock</h2>
+            <div class="weekDay">
+                <div class="day">Sunday</div>
+                <div class="day">Monday</div>
+                <div class="day">Tuesday</div>
+                <div class="day">Wednesday</div>
+                <div class="day">Thursday</div>
+                <div class="day">Friday</div>
+                <div class="day">Saturday</div>
+                
+            </div>
+            <div class="clock-container">
+                <h1 class="day" id="day"></h1>
+                <div class="box">
+                    <div class="f-clock">
+                        <div class="front-clock">
+                            <div id="f-hour">00</div>
+                            <p>hour</p>
+                        </div>
+                    </div>
+
+                    <div class="f-clock">
+                        <div class="front-clock">
+                            <div id="f-minute">00</div>
+                            <p>minutes</p>
+                        </div>
+                    </div>
+
+                    <div class="f-clock">
+                        <div class="front-clock">
+                            <div id="f-second">00</div>
+                            <p>seconds</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+
+    <script src="script.js"></script>
+    <script src="analog.js"></script>
+</body>
+</html>
